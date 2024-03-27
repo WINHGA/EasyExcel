@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * 监听器： 类似于回调函数，在开始前做什么操作，在完成后做什么操作等。
  */
 public class EmployeeListener  implements ReadListener<Employee> {
-    // 定义缓存集合的大小
+    // 定义缓存集合的大小,我们默认为5
     private int count = 5;
     // 定义缓存数据集合
     private ArrayList<Employee> list = new ArrayList<>(count);
